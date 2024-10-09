@@ -1,3 +1,5 @@
+const nuevaResta = require("./04");
+
 function areaDelTriangulo(base, altura) {
   // La función recibe dos argumentos llamados "base" y "altura" los cuales son numeros.
   // Retornar el área de un triangulo teniendo su base y altura.
@@ -5,6 +7,7 @@ function areaDelTriangulo(base, altura) {
   // 10, 5 ---> 25
   // 0, 10 ---> 0
   // Tu código:
+  return base * altura / 2
 }
 
 module.exports = areaDelTriangulo;

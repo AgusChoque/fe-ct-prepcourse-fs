@@ -4,6 +4,14 @@ function pasarUsuarioAPremium(objetoMuchosUsuarios) {
   // Define esta propiedad de todos los usuarios como true.
   // Retornar el arreglo.
   // Tu código:
+
+  for(let i = 0; i < objetoMuchosUsuarios.length; i++) {
+    var actual = objetoMuchosUsuarios[i];
+    actual.esPremium = true;
+  };
+
+  return objetoMuchosUsuarios;
+
 }
 
 module.exports = pasarUsuarioAPremium;
